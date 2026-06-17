@@ -8,7 +8,7 @@
     "build": "tsc -b && vite build",
     "typecheck": "tsc --noEmit",
     "preview": "vite preview",
-    "deploy": "npm run build && npx wrangler deploy"
+    "deploy": "npx wrangler pages deploy dist --project-name crossfit-gym-uttara"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
